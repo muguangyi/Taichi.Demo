@@ -1,0 +1,3 @@
+[submodule "Assets/Taichi"]
+	path = Assets/Taichi
+	url = https://github.com/muguangyi/Taichi.git
