@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b902bac5118842e8b67909cb9f6c312, type: 3}
+  m_Name: AssetManifest
+  m_EditorClassIdentifier: 
+  Assets:
+  - Name: AssetManifest
+    Path: Assets/Loadable2/AssetManifest.asset
+    Type: AssetManifest
+    Packet: AssetManifest
+  - Name: Atlas/LoginAtlas
+    Path: Assets/Loadable2/Atlas/LoginAtlas.spriteatlas
+    Type: SpriteAtlas
+    Packet: LoginAtlas_b4cd11cc874b97c4792d8c480696e41a
+  - Name: OperationNew2_Icon_38
+    Path: OperationNew2_Icon_38
+    Type: Sprite
+    Packet: Atlas/LoginAtlas
+  - Name: OperationNew2_Button_10
+    Path: OperationNew2_Button_10
+    Type: Sprite
+    Packet: Atlas/LoginAtlas
+  - Name: OperationNew2_frame_09
+    Path: OperationNew2_frame_09
+    Type: Sprite
+    Packet: Atlas/LoginAtlas
+  - Name: OperationNew2_Button_01
+    Path: OperationNew2_Button_01
+    Type: Sprite
+    Packet: Atlas/LoginAtlas
+  - Name: Main.unity
+    Path: Assets/Scenes/Main.unity
+    Type: Scene
+    Packet: Main_9fc0d4010bbf28b4594072e72b8655ab

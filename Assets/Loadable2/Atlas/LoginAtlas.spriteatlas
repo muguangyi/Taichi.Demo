@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LoginAtlas
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 22d3838b60767fe4cb8676cd053efb90, type: 3}
+    totalSpriteSurfaceArea: 23240
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 95b45428749976241b8d7f21b1fde4bf, type: 3}
+  - {fileID: 21300000, guid: 578e42cc84fc42344b843c472436434b, type: 3}
+  - {fileID: 21300000, guid: bc76681d40b383b46a28f550b0f97feb, type: 3}
+  - {fileID: 21300000, guid: 13aff5ef93a22844397d4144425f60cc, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - OperationNew2_Icon_38
+  - OperationNew2_Button_10
+  - OperationNew2_frame_09
+  - OperationNew2_Button_01
+  m_RenderDataMap: {}
+  m_Tag: LoginAtlas
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

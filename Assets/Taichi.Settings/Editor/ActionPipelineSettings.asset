@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c40e29ee61744188031e2661af29af, type: 3}
+  m_Name: ActionPipelineSettings
+  m_EditorClassIdentifier: 
+  pDatas:
+  - Name: Build Android
+    StepDatas:
+    - Name: Gen IL Assets
+      MethodData:
+        TypeName: Taichi.ILRuntime.Editor.ScriptEditor, Taichi.Editor, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        MethodName: Generate
+        ArgNames: []
+        ArgTypes: []
+        Args: 
+      Selected: 1
+    - Name: Package Assetbundls
+      MethodData:
+        TypeName: Taichi.Asset.Editor.AssetBuilder, Taichi.Editor, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        MethodName: BuildAndCopy
+        ArgNames: []
+        ArgTypes:
+        - System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        - UnityEditor.BuildTarget, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - UnityEditor.BuildAssetBundleOptions, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        Args: 0b41737365744f75747075740d00000000010000
+      Selected: 1
+    - Name: Build APK
+      MethodData:
+        TypeName: UnityEditor.BuildPipeline, UnityEditor.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        MethodName: BuildPlayer
+        ArgNames: []
+        ArgTypes:
+        - System.String[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        - System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+        - UnityEditor.BuildTarget, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        - UnityEditor.BuildOptions, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        Args: 01000000184173736574732f5363656e65732f4d61696e2e756e6974790c4170702f44656d6f2e61706b0d00000001000000
+      Selected: 1
+  eDatas: []

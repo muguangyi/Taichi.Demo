@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d5e8d4ac56c4702ae36eecd66f8a53, type: 3}
+  m_Name: AssetManifest
+  m_EditorClassIdentifier: 
+  Assets:
+  - Name: AssetManifest
+    Path: Assets/Loadable/AssetManifest.asset
+    Type: AssetManifest
+    Package: AssetManifest
+  - Name: IL/ILScripts.il
+    Path: Assets/Loadable/IL/ILScripts.il.bytes
+    Type: TextAsset
+    Package: ILScripts.il_181d903996bb9b748a15bf85d64c1920.bundle
+  - Name: IL/ILScripts.il.pdb
+    Path: Assets/Loadable/IL/ILScripts.il.pdb.bytes
+    Type: TextAsset
+    Package: ILScripts.il.pdb_ff111d0ef75815246ba9b35858b19fb9.bundle
+  - Name: Login/Login
+    Path: Assets/Loadable/Login/Login.prefab
+    Type: GameObject
+    Package: Login_4365ec67395d0814abb7aa6cbbb5659c.bundle
+  - Name: Login/Login2
+    Path: Assets/Loadable/Login/Login2.prefab
+    Type: GameObject
+    Package: Login2_96d2c41143678c5418dadf53a803bfce.bundle
+  - Name: Model/Cube
+    Path: Assets/Loadable/Model/Cube.prefab
+    Type: GameObject
+    Package: Cube_cf51a222f21646246bd31988c51fab1f.bundle
+  - Name: Model/Sphere
+    Path: Assets/Loadable/Model/Sphere.prefab
+    Type: GameObject
+    Package: Sphere_9aa3463cbacd46f4a8564e2044d404a8.bundle
+  - Name: Main.unity
+    Path: Assets/Scenes/Main.unity
+    Type: Scene
+    Package: Main_9fc0d4010bbf28b4594072e72b8655ab.bundle

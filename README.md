@@ -1,2 +1,3 @@
 # Taichi.Demo
-Unity demo for Taichi framework
+
+Taichi Unity demo project.
